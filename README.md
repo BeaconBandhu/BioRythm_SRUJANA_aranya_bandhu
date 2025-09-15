@@ -1,4 +1,4 @@
-# 🏥 Smart Hospital Patient Management & Prescription System
+# 🏥 BioRythm: Smart Hospital Patient Management & Prescription System
 
 This project is a **Flask + MongoDB-based hospital management platform** that integrates patient records, prescription scanning, and doctor assignment. It also connects with hardware health monitoring devices (ECG, SpO2, Heart Rate, etc.) for real-time updates.
 
