@@ -1,9 +1,13 @@
 from flask import Flask, request, jsonify, render_template_string
+from dotenv import load_dotenv
+import os
 import openai
 import base64
 
 # --- Configure your OpenAI API Key ---
-client = openai.OpenAI(api_key="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")
+load_dotenv()
+x=os.environ.get("api_key")
+client = openai.OpenAI(api_key="x")
 
 # --- Flask App Setup ---
 app = Flask(__name__)
